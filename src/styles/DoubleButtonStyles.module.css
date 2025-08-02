@@ -1,0 +1,23 @@
+/* Willow Vanity Button Styles */
+.heading {
+  color: var( --text-color-double);
+}
+.style1 a {
+  background-color: var( --text-color-double);
+  color: #fff;
+}
+
+.style1 a:hover {
+  background-color: #7997b8;
+}
+
+.style2 a {
+  background-color: transparent;
+  color: var( --text-color-double);
+  border: 1px solid var( --text-color-double);
+}
+
+.style2 a:hover {
+  background-color: var( --text-color-double);
+  color: #fff;
+}
