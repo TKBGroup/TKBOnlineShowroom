@@ -1,0 +1,66 @@
+/* src/styles/Gallery.module.css */
+
+.vanitySection, .kitchenSection, .storageSection {
+  width: 100%;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.vanitySection h2, .kitchenSection h2, .storageSection h2 {
+  font-family: var(--font-beautiful);
+  font-size: var(--main-gallery-h1);
+  color: var(--main-h3-accents);
+  margin-bottom: 2rem;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  max-width: 350px;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 1rem;
+  text-align: left;
+}
+
+.cardContent h3 {
+  font-size: 1.25rem;
+  font-family: var(--font-montserrat);
+  color: var(--main-h3-accents);
+  margin-bottom: 0.5rem;
+}
+
+.cardContent p {
+  font-size: 1rem;
+  color: var(--main-text-color);
+  margin-bottom: 1rem;
+}
+
+.cardContent a {
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+  color: var(--main-h3-accents);
+  text-decoration: underline;
+}

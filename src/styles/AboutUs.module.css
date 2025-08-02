@@ -1,0 +1,43 @@
+/* ===================== */
+/* === ABOUT US === */
+/* ===================== */ 
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(1.375rem, 6.933vw - 0.055rem, 4.625rem);
+  margin: clamp(0rem, 9.333vw - 1.925rem, 4.375rem) auto clamp(1.75rem, 8.533vw - 0.01rem, 5.75rem);
+}
+
+.about-us h3 {
+  font-size: clamp(1.25rem, 5.867vw + 0.04rem, 4rem);
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  /* color: black; */
+}
+
+.buttons {
+  display: flex;
+  gap: clamp(0.75rem, 3.6vw + 0.007rem, 2.438rem);
+  max-height: clamp(1.313rem, 4.4vw + 0.405rem, 3.375rem);
+  height: 100%;
+  font-size: clamp(0.438rem, 2.267vw - 0.03rem, 1.5rem);
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  line-height: clamp(0.313rem, 1.467vw + 0.01rem, 1rem);
+  text-align: center; 
+}
+
+/* Base button styles to be inherited */
+.buttons a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(0.313rem, 1.867vw - 0.072rem, 1.188rem) clamp(0.875rem, 4.533vw - 0.06rem, 3rem);
+ 
+  border-radius: clamp(0.188rem, 0.8vw + 0.022rem, 0.563rem);
+}
